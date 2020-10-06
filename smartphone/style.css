@@ -1,0 +1,81 @@
+h1 {
+    color: red;
+}
+
+.phone {
+    border: 2px solid black; 
+    border-radius: 15px;
+    height: 700px;
+    width: 500px; 
+    box-shadow: 10px 10px 8px 
+    background-image: 
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.box1 { 
+    width: 100px; 
+    height: 100px; 
+    background: pink;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.box2 { 
+    width: 100px; 
+    height: 100px; 
+    background: orange;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.box3 { 
+    width: 100px; 
+    height: 100px; 
+    background: red;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.box4 { 
+    width: 100px; 
+     height: 100px; 
+     background: yellowgreen;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.box5 { 
+    width: 100px; 
+     height: 100px; 
+     background: blueviolet;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.box6 { 
+    width: 100px; 
+     height: 100px; 
+     background: yellowgreen;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.box7 { 
+    width: 100px; 
+     height: 100px; 
+     background: yellowgreen;
+    margin: 2px;
+    border-radius: 10px;
+}
+.box8 { 
+    width: 100px; 
+     height: 100px; 
+     background: yellowgreen;
+    margin: 2px;
+    border-radius: 10px;
+}
