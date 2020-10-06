@@ -1,81 +1,173 @@
-h1 {
-    color: red;
-}
+body {
+    background-color: #a1dd69;
+    background-image: url();
+  }
 
-.phone {
-    border: 2px solid black; 
-    border-radius: 15px;
-    height: 700px;
-    width: 500px; 
-    box-shadow: 10px 10px 8px 
-    background-image: 
-    display: flex;
-    flex-wrap: wrap; 
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; 
+  .phone {
+        border: 2px solid black;
+        border-radius: 15px;
+        height: 700px;
+        width: 500px;
+        box-shadow: 10px 10px 8px #e7d1d1;
+        background-image: url("https://images.squarespace-cdn.com/content/54f50b2de4b0ac2a89a502f7/1586650271827-W4L4PS00DLGTA1XT4CQT/cute-spring-phone-wallpaper-background-yellow-and-pink-ranunculus.png?content-type=image%2Fpng");
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
 
-}
-
-.box1 { 
-    width: 100px; 
-    height: 100px; 
-    background: pink;
-    margin: 2px;
-    border-radius: 10px;
-}
-
-.box2 { 
-    width: 100px; 
-    height: 100px; 
-    background: orange;
-    margin: 2px;
-    border-radius: 10px;
-}
-
-.box3 { 
-    width: 100px; 
-    height: 100px; 
-    background: red;
-    margin: 2px;
-    border-radius: 10px;
-}
-
-.box4 { 
-    width: 100px; 
-     height: 100px; 
-     background: yellowgreen;
-    margin: 2px;
-    border-radius: 10px;
-}
-
-.box5 { 
-    width: 100px; 
-     height: 100px; 
-     background: blueviolet;
-    margin: 2px;
-    border-radius: 10px;
-}
-
-.box6 { 
-    width: 100px; 
-     height: 100px; 
-     background: yellowgreen;
-    margin: 2px;
-    border-radius: 10px;
-}
-
-.box7 { 
-    width: 100px; 
-     height: 100px; 
-     background: yellowgreen;
-    margin: 2px;
-    border-radius: 10px;
-}
-.box8 { 
-    width: 100px; 
-     height: 100px; 
-     background: yellowgreen;
-    margin: 2px;
-    border-radius: 10px;
-}
+      }
+      
+      .p {
+        color: #c7a9b1;
+    }
+  
+      .box1 {
+        width: 100px;
+        height: 100px;
+        background: #a6edf0;
+        margin: 2px;
+        border-radius: 10px
+        
+      }
+      .box2 {
+        width: 100px;
+        height: 100px;
+        background: #e0bfc8;
+        margin: 2px;
+        border-radius: 10px
+      }
+      .box3 {
+        width: 100px;
+        height: 100px;
+        background: #a4f091;
+        margin: 2px;
+        border-radius: 10px;
+        flex-direction: row;
+      }
+      .box4 {
+        width: 100px;
+        height: 100px;
+        background: #b66eb2;
+        margin: 2px;
+        border-radius: 10px
+        
+      }
+      .box5 {
+        width: 100px;
+        height: 100px;
+        background:#e0bfc8;
+        margin: 2px;
+        flex-direction: row;
+        border-radius: 10px
+      }
+      .box6 {
+        width: 100px;
+        height: 100px;
+        background: #a4f091;
+        margin: 2px;
+        border-radius: 10px
+      }
+      .box7 {
+        width: 100px;
+        height: 100px;
+        background:#b66eb2;
+        margin: 2px;
+        border-radius: 10px
+      }
+      .box8 {
+        width: 100px;
+        height: 100px;
+        background: #a6edf0;
+        margin: 2px;
+        border-radius: 10px
+      }  
+      .box9 {
+        width: 100px;
+        height: 100px;
+        background: #b66eb2;
+        margin: 2px;
+        border-radius: 10px
+      } 
+      .box10 {
+        width: 100px;
+        height: 100px;
+        background: #a6edf0;
+        margin: 2px;
+        border-radius: 10px
+      } 
+      .box11 {
+        width: 100px;
+        height: 100px;
+        background:#e0bfc8 ;
+        margin: 2px;
+        border-radius: 10px
+      } 
+      .box12 {
+        width: 100px;
+        height: 100px;
+        background: #a4f091;
+        margin: 2px;
+        border-radius: 10px
+      } 
+      .box13 {
+        width: 100px;
+        height: 100px;
+        background: #a4f091;
+        margin: 2px;
+        border-radius: 10px
+      } 
+      .box14 {
+        width: 100px;
+        height: 100px;
+        background: #e0bfc8;
+        margin: 2px;
+        border-radius: 10px
+      } 
+      .box15 {
+        width: 100px;
+        height: 100px;
+        background: #b66eb2;
+        margin: 2px;
+        border-radius: 10px
+      } 
+      .box16 {
+        width: 100px;
+        height: 100px;
+        background: #a6edf0;
+        margin: 2px;
+        border-radius: 10px
+      } 
+      .box17 {
+        width: 100px;
+        height: 100px;
+        background: #a6edf0;
+        margin: 2px;
+        border-radius: 10px
+      } 
+      .box18 {
+        width: 100px;
+        height: 100px;
+        background: #a4f091;
+        margin: 2px;
+        border-radius: 10px
+      } 
+      .box19 {
+        width: 100px;
+        height: 100px;
+        background: #e0bfc8;
+        margin: 2px;
+        border-radius: 10px
+      } 
+      .box20 {
+        width: 100px;
+        height: 100px;
+        background: #b66eb2;
+        margin: 2px;
+        border-radius: 10px
+      } 
+      .p {
+          color: #40383a;
+      }
+    
+  }
