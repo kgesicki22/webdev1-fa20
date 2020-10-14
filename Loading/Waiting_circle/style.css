@@ -1,0 +1,65 @@
+body {
+  background-color: #ded1f0;
+  background-image: url(https://media0.giphy.com/media/ECWLeGxcKasCc/giphy.webp?cid=ecf05e47ghhhdkevy0w9mi0zt52c6q1110hqumdl72u31e5p&rid=giphy.webp);
+}
+
+.container {
+  width: 800px;
+  height: 600px;
+  background: white;
+  border-radius: 20px;
+  margin: 50px auto;
+}
+
+h4 {
+  color: pink;
+  font-size: 100px;
+}
+
+img {
+  animation-name: spin-n-move;
+  animation-duration: 4s;
+  animation-delay: .1s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@keyframes spin-n-move {
+  0% {
+    transform: translate(-70px, 30px) rotateZ(0deg);
+  }
+  10% {
+    transform: translate(60px, 20px) rotateZ(0deg);
+  }
+  50% {
+    transform: translate(10px, -70px) rotateZ(0deg);
+  }
+  80% {
+    transform: translate(-180px, 60px) rotateZ(0deg);
+  }
+
+  img {
+    animation-name: spin-n-move;
+    animation-duration: 4s;
+    animation-delay: .1s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  }
+  
+  @keyframes spin-n-move {
+    0% {
+      transform: translate(-70px, 30px) rotateZ(0deg);
+    }
+    10% {
+      transform: translate(60px, 20px) rotateZ(0deg);
+    }
+    50% {
+      transform: translate(10px, -70px) rotateZ(0deg);
+    }
+    80% {
+      transform: translate(-180px, 60px) rotateZ(0deg);
+    }
