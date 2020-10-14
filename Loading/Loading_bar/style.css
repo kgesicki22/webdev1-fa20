@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .activator {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border: 4px solid black;
+    margin: 20px;
+  }
+  
+  .box1 {
+    width: 100%;
+    height: 100%;
+    font-size: 5cm;
+    background: rgb(45, 248, 5);
+    position: absolute;
+    transition: all 0.5s;
+    left: 0;
+    top: 0;
+  }
+  
+  .activator:hover .box1 {
+    left: 1400px;
+    transform: rotateY(360deg) rotateX(360deg);
+    border-radius: 50%;
+    animation-fill-mode: forwards;
+  }
+
+  .box2 {
+    width: 100%;
+    height: 100%;
+    font-size: 5cm;
+    background: rgb(92, 241, 62);
+    position: absolute;
+    transition: all 1s;
+    left: 0;
+    top: 0;
+  }
+  
+  .activator:hover .box2 {
+    left: 1200px;
+    transform: rotateY(360deg) rotateX(360deg);
+    border-radius: 50%;
+    animation-fill-mode: forwards;
+  }
+
+  .box3 {
+    width: 100%;
+    height: 100%;
+    font-size: 5cm;
+    background: rgb(167, 250, 150);
+    position: absolute;
+    transition: all 1.5s;
+    left: 0;
+    top: 0;
+  }
+  
+  .activator:hover .box3 {
+    left: 1000px;
+    transform: rotateY(360deg) rotateX(360deg);
+    border-radius: 50%;
+    animation-fill-mode: forwards;
+  } 
+
+  .box4 {
+    width: 100%;
+    height: 100%;
+    font-size: 5cm;
+    background: rgb(205, 247, 197);
+    position: absolute;
+    transition: all 2s;
+    left: 0;
+    top: 0;
+  }
+  
+  .activator:hover .box4 {
+    left: 800px;
+    transform: rotateY(360deg) rotateX(360deg);
+    border-radius: 50%;
+    animation-fill-mode: forwards;
+  }
+
+  .box5 {
+    width: 100%;
+    height: 100%;
+    font-size: 5cm;
+    background: rgb(251, 252, 250);
+    position: absolute;
+    transition: all 2.5s;
+    left: 0;
+    top: 0;
+  }
+  
+  .activator:hover .box5 {
+    left: 600px;
+    transform: rotateY(360deg) rotateX(360deg);
+    border-radius: 50%;
+    animation-fill-mode: forwards;
+  }
+
+  .box6 {
+    width: 100%;
+    height: 100%;
+    font-size: 5cm;
+    background: rgb(252, 200, 198);
+    position: absolute;
+    transition: all 3s;
+    left: 0;
+    top: 0;
+  }
+  
+  .activator:hover .box6 {
+    left: 400px;
+    transform: rotateY(360deg) rotateX(360deg);
+    border-radius: 50%;
+    animation-fill-mode: forwards;
+  }
+
+  .box7 {
+    width: 100%;
+    height: 100%;
+    font-size: 5cm;
+    background: rgb(250, 116, 98);
+    position: absolute;
+    transition: all 4s;
+    left: 0;
+    top: 0;
+  }
+  
+  .activator:hover .box7 {
+    left: 200px;
+    transform: rotateY(360deg) rotateX(360deg);
+    border-radius: 50%;
+    animation-fill-mode: forwards;
+  }
+
+  .box8 {
+    width: 100%;
+    height: 100%;
+    font-size: 5cm;
+    background: rgb(253, 34, 5);
+    position: absolute;
+    transition: all 5s;
+    left: 0;
+    top: 0;
+  }
+  
+  .activator:hover .box8 {
+    left: 100px;
+    transform: rotateY(360deg) rotateX(360deg);
+    border-radius: 50%;
+    animation-fill-mode: forwards;
+  }
