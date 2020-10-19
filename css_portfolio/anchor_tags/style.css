@@ -1,0 +1,17 @@
+body {
+    background-color:#eddcd3;
+    background-image: url();
+    color: #7a6a61
+}
+
+img {
+    max-width: 400px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.p5 {
+max-width: 1000px;
+}

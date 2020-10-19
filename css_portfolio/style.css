@@ -6,7 +6,15 @@ img {
     max-width: 200px;
 }
 
-a {
-    display: inline-block;
-    margin: 20px; 
+
+body {
+    background-color:#eddcd3;
+    background-image: url(https://media2.giphy.com/media/7zGxpdiEElbsibePNV/giphy.gif?cid=ecf05e476ucadag341c3ds8rrkj3l5ihwa5r2ova9p4i0kts&rid=giphy.gif);
+    color: #e277dd
 }
+a {
+color:  #7a6a61;
+margin: 40px;
+display: inline-block;
+}
+
