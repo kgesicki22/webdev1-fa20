@@ -1,0 +1,28 @@
+body {
+    background-color:#5ee05e;
+    background-image: url(https://media.giphy.com/media/chcQdo9k6zpWKkH840/giphy.gif);
+    
+    color: #7a6a61
+}
+
+.wrapper {
+    display: flex;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box {
+    width: 400px;
+    height: 400px;
+    animation-iteration-count: infinite;
+    background: rgb(115, 86, 160);
+    border: double #c6bdff;
+    transition: transform 4s cubic-bezier(.97,-0.65,.45,1.05),
+                background 4s cubic-bezier(.97,-0.65,.45,1.05);
+  }
+  
+  .box:hover {
+    transform: rotateZ(360deg);
+    background: #0188fd;
+  }
