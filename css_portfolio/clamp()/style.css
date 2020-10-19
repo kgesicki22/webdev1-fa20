@@ -1,0 +1,9 @@
+body {
+    background-color:#71a2c5;
+    
+}
+
+p {
+    font-size: clamp(2rem, 3.5vw, 2rem); 
+}
+
