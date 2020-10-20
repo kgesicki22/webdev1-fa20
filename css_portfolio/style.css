@@ -1,9 +1,10 @@
 h1 {
-    color: purple;
+    color: white;
+    font-size: 50px;
 }
 
 img {
-    max-width: 200px;
+    max-width: 300px;
 }
 
 
@@ -13,7 +14,7 @@ body {
     color: #e277dd
 }
 a {
-color:  #7a6a61;
+color:  #fdfcfb;
 margin: 40px;
 display: inline-block;
 }
