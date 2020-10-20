@@ -1,0 +1,19 @@
+body {
+    background-color:#f7381f;
+    
+    color: #fcfbfa
+}
+
+header {
+    padding: 5vmin 1rem;
+    background-color:#fff7f8;
+    color: green
+  }
+
+  h1 {
+      font-size: 60px;
+  }
+
+  p {
+      font-size: 30px;
+  }

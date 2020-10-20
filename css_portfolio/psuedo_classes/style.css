@@ -1,0 +1,25 @@
+Body {
+    background-color:#eddcd3;
+    color: #7a6a61
+}
+img {
+    size: 400px;
+}
+
+h2:hover {
+color: pink;
+background-color: white;
+font-size: 40px;
+}
+
+p:hover {
+    color: pink;
+background-color: white;
+font-size: 30px;
+}
+
+h3:hover {
+    color: pink;
+    background-color: white;
+    font-size: 50px;
+}

@@ -1,0 +1,10 @@
+body {
+    background-color:#eddcd3;
+    background-image: url(https://media.giphy.com/media/6LPJxFifIG39S/giphy.gif);
+    color: #7a6a61
+}
+
+video {
+    width: 100%;
+    height: auto;
+  }

@@ -1,0 +1,17 @@
+
+p::first-letter {
+    color: #ff0000;
+    font-size: 200px;
+  } 
+  p::first-line {
+    color: #0000ff;
+    font-variant: small-caps;
+  }
+
+  p {
+      font-size: 30px;
+  }
+
+  body {
+      background-color: aliceblue;
+  }

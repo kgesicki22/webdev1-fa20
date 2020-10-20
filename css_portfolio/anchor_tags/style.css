@@ -1,7 +1,7 @@
 body {
     background-color:#eddcd3;
-    background-image: url();
-    color: #7a6a61
+    background-image: url(https://media.giphy.com/media/fSeQICKvIpaGlNK8o4/giphy.gif);
+    color: #0e0500
 }
 
 img {
@@ -9,7 +9,8 @@ img {
 }
 
 p {
-    font-size: 25px;
+    font-size: 40px;
+
 }
 
 .p5 {
