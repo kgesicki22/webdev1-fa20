@@ -3,22 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jQuery intro</title>
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     <script src="../libs/jquery-3.5.1.min.js"></script>
+    <title>jquery modal popout window</title>
 </head>
-<body>
-    <h1>jQuery intro</h1>
+<body> <center>
+    <button id="myBtn">Open Modal</button>
 
-    <div class="modal">
-        <div class="modal__close">+</div>
-        <div class="modal__message">I'm a modal popout!</div>
+    <div id="myModal" class="modal">
+    
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        
+        <p>You know the saying: when pigs fly? Well, here's a flying pig... here's your sign to do whatever you've been putting off because it seemed impossible!</p>
+        <img src="https://media.giphy.com/media/4NetxFvQ2mq8Zy9VWn/giphy.gif" alt=" pigs flying">
       </div>
-
-
-
-
-
+    </div>
+    </div>
+</center>
+<center>
+   <a href="https://kgesicki22.github.io/webdev1-fa20/portfolio_page/"><i>Head back to my portfolio why don'tcha</i></a>
     <script src="main.js"></script>
+</center>
 </body>
 </html>
