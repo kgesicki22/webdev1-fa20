@@ -1,4 +1,8 @@
-$('.box').click(function() {
-    console.log("I was clicked!")
-    $(".box").css("background", "red");
+console.log("heeeeey")
+
+
+$('.modal').click(function(){
+    
+    $('.modal').css("background", "rgb(255, 0, 0");
+    
 })
