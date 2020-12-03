@@ -4,6 +4,20 @@ body {
     
 }
 
+.parallax {
+   
+    background-image: url("https://facts.net/wp-content/uploads/2020/08/colorful-pigs.jpg");
+  
+   
+    min-height: 500px; 
+  
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 h1 {
     font-style: oblique;
     color: lightpink;
