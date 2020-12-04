@@ -1,6 +1,7 @@
 body { 
     background-color: rgb(240, 216, 235);
-    background-image: url();
+   
+    
     
 }
 
@@ -8,8 +9,7 @@ body {
    
     background-image: url("https://facts.net/wp-content/uploads/2020/08/colorful-pigs.jpg");
   
-   
-    min-height: 500px; 
+   min-height: 500px; 
   
   
     background-attachment: fixed;
@@ -34,16 +34,16 @@ p {
     text-align: center;
 }
 
-babypig {
-    size: 10px;
-}
+
 
 li {
     font-size: 30px;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Amatic SC', cursive;
     
 }
 img {
-    size: 20px;
+    width: 400px;
+    display: block;
 }
+
