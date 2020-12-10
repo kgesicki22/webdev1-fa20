@@ -70,3 +70,45 @@ h3 {
     position: absolute;
     
 }
+
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    font-family:"=Cavet";
+    font-size: 20px;
+    background-color: rgb(189, 124, 124); 
+    background-color: rgba(248, 171, 171, 0.4); 
+  }
+  
+  
+  .modal-content {
+    background-color: #ffc8bf;
+    background-image: url(https://media.giphy.com/media/4NetxFvQ2mq8Zy9VWn/giphy.gif);
+    margin: 15% auto; 
+    padding: 80px;
+    border: 1px solid #888;
+    width: 90%; 
+  }
+  
+  
+  .close {
+    color: rgb(233, 123, 209);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
