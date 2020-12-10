@@ -111,4 +111,14 @@ h3 {
     cursor: pointer;
   }
 
+  iframe {
+      display: block;
+  }
+
+  .center-video {
+      margin: 0 auto;
+      width: 50vw;
+      height: 30vw;
+  }
+
 
